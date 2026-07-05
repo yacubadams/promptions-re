@@ -1,0 +1,27 @@
+{
+    "name": "promptions-re",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "RE Interview Assistant — a human-in-the-loop requirements elicitation workbench powered by Claude",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vite --port 3006",
+        "proxy": "node server/proxy.mjs",
+        "build": "tsc && vite build",
+        "preview": "vite preview --port 3006",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "immer": "^10.1.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "@vitejs/plugin-react": "^4.3.3",
+        "typescript": "^5.6.3",
+        "vite": "^7.3.2"
+    }
+}
