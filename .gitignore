@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+.yarn/
+.pnp.*
+
+# build output
+dist/
+.vercel/
+
+# secrets — NEVER commit the real key
+.env
+.env.local
+.env.*.local
+
+# keep these committed:
+!.env.example
+!.env.production
+
+# logs / os
+*.log
+.DS_Store
