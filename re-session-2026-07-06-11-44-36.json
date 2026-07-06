@@ -1,0 +1,1607 @@
+{
+  "version": 1,
+  "savedAt": 1783338102280,
+  "stage": "export",
+  "turns": [
+    {
+      "id": "t-mr9352l0-0",
+      "speaker": "Interviewer",
+      "role": "interviewer",
+      "text": "If this system worked perfectly after three months — what specifically would be different about your working day compared to today?",
+      "ts": 1783334204244
+    },
+    {
+      "id": "t-mr9368gl-1",
+      "speaker": "Stakeholder",
+      "role": "stakeholder",
+      "text": "the productivity in his perspective means that, whenever he does an interview and is finished with it, he only wants all the required elements to be ticked off and that the result is reliable, that I could close my teams app and then feels relaxed knowing that the interview went perfectly and the required informations are gathered and documented properly.. So basically it’s all of the aspects, from speed, reliability, completeness, confidence and autonomy.",
+      "ts": 1783334258517
+    },
+    {
+      "id": "t-mr936ooc-2",
+      "speaker": "Interviewer",
+      "role": "interviewer",
+      "text": "When you say you want a brain that replaces DevOps — do you mean replacing the tool itself, or replacing the manual effort of using it?",
+      "ts": 1783334279532
+    },
+    {
+      "id": "t-mr937il9-3",
+      "speaker": "Stakeholder",
+      "role": "stakeholder",
+      "text": "the tools is the additional intelligent layer on top of the current devops tools and the whole data and rules. The stakeholder and companies are based in Germany, the government is virtually protecting companies from bankruptcy but at the cost of adherence. The tools, database and the whole legal staff are already fixed and cannot be altered.",
+      "ts": 1783334318301
+    },
+    {
+      "id": "t-mr937xz3-4",
+      "speaker": "Interviewer",
+      "role": "interviewer",
+      "text": "Should we use the tool or we feed the system?",
+      "ts": 1783334338239
+    },
+    {
+      "id": "t-mr938ds1-5",
+      "speaker": "Stakeholder",
+      "role": "stakeholder",
+      "text": "the system should make perfect sense by default, like already pre educated by default. The system should also create a senseful assumption of the world and reflect on the condition of the world, not only reading or memorizing the request or requirement blindly. But it should be careful when it comes to creating assumptions about the world.",
+      "ts": 1783334358721
+    },
+    {
+      "id": "t-mr938t4u-6",
+      "speaker": "Interviewer",
+      "role": "interviewer",
+      "text": "How does the system interact with tools?",
+      "ts": 1783334378622
+    },
+    {
+      "id": "t-mr9390br-7",
+      "speaker": "Stakeholder",
+      "role": "stakeholder",
+      "text": "Direct interaction",
+      "ts": 1783334387943
+    },
+    {
+      "id": "t-mr939k0i-8",
+      "speaker": "Interviewer",
+      "role": "interviewer",
+      "text": "what about legal aspect?",
+      "ts": 1783334413458
+    },
+    {
+      "id": "t-mr939rku-9",
+      "speaker": "Stakeholder",
+      "role": "stakeholder",
+      "text": "following German regulation",
+      "ts": 1783334423262
+    },
+    {
+      "id": "t-mr93a7jv-a",
+      "speaker": "Interviewer",
+      "role": "interviewer",
+      "text": "What about information acceptance continuity?",
+      "ts": 1783334443963
+    },
+    {
+      "id": "t-mr93amnw-b",
+      "speaker": "Stakeholder",
+      "role": "stakeholder",
+      "text": "source of truth is backlog, model and share points, if there are new artifacts we just add up to it. Nothing is automatically changed in the current or precious artifacts that were stored, there is a legal aspect to it. Cannot alter automatically.",
+      "ts": 1783334463548
+    },
+    {
+      "id": "t-mr93bpc4-c",
+      "speaker": "Interviewer",
+      "role": "interviewer",
+      "text": "You are the stakeholder, can you describe yourself?",
+      "ts": 1783334513668
+    },
+    {
+      "id": "t-mr93c7i9-d",
+      "speaker": "Stakeholder",
+      "role": "stakeholder",
+      "text": "I'm a customer and I have the capital to build the system. I’m a methodology expert and a RE consultant.I’m not the manager or leader, I’m just an expert that organizes my team which consists of Requirement Engineers (RE). My RE teams are the user of this tool, they are the one conducting elicitation during RE process. I need a tool to assist my team.",
+      "ts": 1783334537217
+    },
+    {
+      "id": "t-mr93cmp4-e",
+      "speaker": "Interviewer",
+      "role": "interviewer",
+      "text": "What would be the goal of this tool? Maybe the main goal?",
+      "ts": 1783334556904
+    },
+    {
+      "id": "t-mr93cz4a-f",
+      "speaker": "Stakeholder",
+      "role": "stakeholder",
+      "text": "To guide and support the stakeholder’s RE in supporting asking right questions (interview) that will save time, from interview to specification takes forever and this tool should fix it.",
+      "ts": 1783334573002
+    },
+    {
+      "id": "t-mr93db5n-g",
+      "speaker": "Interviewer",
+      "role": "interviewer",
+      "text": "What are further information about this tool you would like to add?",
+      "ts": 1783334588603
+    },
+    {
+      "id": "t-mr93e0hf-h",
+      "speaker": "Stakeholder",
+      "role": "stakeholder",
+      "text": "Interruption during an interview could also happen. The tool is like a mentor or consultant, who could at the right moment, give recommendations to ask follow up questions. Maximum 4-5 people during one interview. Needs approval, needs a log of changes in interview, who is accessible to the developer,  not only the ‘project log’. Like in normal interview, they used have one or two hour meeting, but the summary of the interview are sometimes insufficient, so the tool needs to create as much as a summary that are valuable to the whole team. Tools make suggestions based on discussion between interviewers, and the suggestions always have references to which part of conversation/discussion being made. The tool which was empowered by the intelligence layer might recommend so many suggestions that might be too much, so the tool needs to be able to connect the pattern of the issue, so that there will be no unnecessary repetition. Tool should stick to live meeting, but there is option to deactivate live feedback, the live direct feedback feature is default though. Tools should handle conflicting suggestions and be able to ask follow up questions.  If there is a wrong transcription or feature, he doesn't need an advanced feature like user’s rating, instead the stakeholder would just have a follow up meetings with ‘users’ which is his RE teams, the tool itself is not meant to replace the whole framework or responsibilities. The database (interview transcript) should be somewhere local, not cloud,, actually he doesnt really care! :)\n\nPeople approve hallucination requirements; this has to be avoided, this is the worst case. This will jeopardize the ‘main goals’\n\nThe meeting is just like business usual, the financial department, like 2-5 people. Sometimes large workshops happen as well, but today that is rare. Build it before regular team meetings.",
+      "ts": 1783334621427
+    }
+  ],
+  "elicitation": {
+    "candidates": [
+      {
+        "id": "ec-mr93eoq3-0",
+        "kind": "goal",
+        "statement": "The system shall guide Requirement Engineers during elicitation interviews by recommending follow-up questions at the right moment, so that all required information is gathered and documented properly.",
+        "trace": "The tool is like a mentor or consultant, who could at the right moment, give recommendations to ask follow up questions.",
+        "traceSpeaker": "Stakeholder",
+        "traceTurnId": "t-mr93e0hf-h",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783334652843
+      },
+      {
+        "id": "ec-mr93eoq3-1",
+        "kind": "goal",
+        "statement": "The system shall produce complete and valuable interview summaries that go beyond what a human note-taker would capture, making them useful to the whole team.",
+        "trace": "the summary of the interview are sometimes insufficient, so the tool needs to create as much as a summary that are valuable to the whole team.",
+        "traceSpeaker": "Stakeholder",
+        "traceTurnId": "t-mr93e0hf-h",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783334652843
+      },
+      {
+        "id": "ec-mr93eoq3-2",
+        "kind": "goal",
+        "statement": "The system shall act as an intelligent layer on top of existing DevOps tools, databases, and legal artefacts without altering any of them.",
+        "trace": "the tools is the additional intelligent layer on top of the current devops tools and the whole data and rules.",
+        "traceSpeaker": "Stakeholder",
+        "traceTurnId": "t-mr937il9-3",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783334652843
+      },
+      {
+        "id": "ec-mr93eoq3-3",
+        "kind": "obstacle",
+        "statement": "Existing tools, databases, and legal artefacts are fixed and cannot be changed, constraining the system's ability to improve or correct stored information automatically.",
+        "trace": "Nothing is automatically changed in the current or precious artifacts that were stored, there is a legal aspect to it. Cannot alter automatically.",
+        "traceSpeaker": "Stakeholder",
+        "traceTurnId": "t-mr93amnw-b",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783334652843
+      },
+      {
+        "id": "ec-mr93eoq3-4",
+        "kind": "obstacle",
+        "statement": "Hallucinated or fabricated requirements may be approved by stakeholders, directly jeopardising the main goal of reliable and complete requirements documentation.",
+        "trace": "People approve hallucination requirements; this has to be avoided, this is the worst case. This will jeopardize the 'main goals'",
+        "traceSpeaker": "Stakeholder",
+        "traceTurnId": "t-mr93e0hf-h",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783334652843
+      },
+      {
+        "id": "ec-mr93eoq4-5",
+        "kind": "goal",
+        "statement": "The system shall deduplicate and consolidate suggestions by detecting patterns across issues so that no unnecessary repetitions are presented to the user.",
+        "trace": "the tool needs to be able to connect the pattern of the issue, so that there will be no unnecessary repetition.",
+        "traceSpeaker": "Stakeholder",
+        "traceTurnId": "t-mr93e0hf-h",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783334652844
+      },
+      {
+        "id": "ec-mr93eoq4-6",
+        "kind": "gap",
+        "statement": "The criteria and mechanism by which the system forms and validates world-context assumptions — while remaining cautious — have not yet been defined.",
+        "trace": "The system should also create a senseful assumption of the world and reflect on the condition of the world, not only reading or memorizing the request or requirement blindly. But it should be careful when it comes to creating assumptions about the world.",
+        "traceSpeaker": "Stakeholder",
+        "traceTurnId": "t-mr938ds1-5",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783334652844
+      },
+      {
+        "id": "ec-mr93eoq4-7",
+        "kind": "openIssue",
+        "statement": "The storage location for interview transcripts (local vs. cloud) has not been decided and must be resolved before architecture design. the database is local.",
+        "trace": "The database (interview transcript) should be somewhere local, not cloud,, actually he doesnt really care! :)",
+        "traceSpeaker": "Stakeholder",
+        "traceTurnId": "t-mr93e0hf-h",
+        "grounded": true,
+        "status": "edited",
+        "ts": 1783334652844
+      },
+      {
+        "id": "hc-mr93lmvs-0",
+        "kind": "obstacle",
+        "statement": "The system must follow German and European Union regulation which is not defined here yet.",
+        "trace": "",
+        "grounded": false,
+        "humanAdded": true,
+        "status": "edited",
+        "ts": 1783334977048
+      }
+    ],
+    "reviews": [
+      {
+        "candidateId": "ec-mr93eoq4-7",
+        "status": "edited",
+        "approver": "RE",
+        "ts": 1783334848656,
+        "editedStatement": "The storage location for interview transcripts (local vs. cloud) has not been decided and must be resolved before architecture design. the database is local."
+      },
+      {
+        "candidateId": "hc-mr93lmvs-0",
+        "status": "edited",
+        "approver": "RE",
+        "ts": 1783334997136,
+        "editedStatement": "The system must follow German and European Union regulation which is not defined here yet."
+      },
+      {
+        "candidateId": "ec-mr93eoq4-6",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335006134
+      },
+      {
+        "candidateId": "ec-mr93eoq4-5",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335007654
+      },
+      {
+        "candidateId": "ec-mr93eoq3-4",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335009386
+      },
+      {
+        "candidateId": "ec-mr93eoq3-3",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335010334
+      },
+      {
+        "candidateId": "ec-mr93eoq3-2",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335011954
+      },
+      {
+        "candidateId": "ec-mr93eoq3-1",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335013736
+      },
+      {
+        "candidateId": "ec-mr93eoq3-0",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335014735
+      }
+    ],
+    "llmCallCount": 1
+  },
+  "drafting": {
+    "stories": [
+      {
+        "role": "Requirement Engineer",
+        "want": "to receive real-time follow-up question recommendations from the system during an elicitation interview",
+        "soThat": "I can ensure all required information is gathered without missing critical topics",
+        "acceptanceCriteria": [
+          "The system surfaces a follow-up question recommendation within the active interview session when a topic is detected as incomplete or ambiguous.",
+          "Recommendations are presented at contextually appropriate moments during the conversation, not only at the end.",
+          "The RE can act on or dismiss each recommendation without interrupting the interview flow."
+        ],
+        "trace": "The tool is like a mentor or consultant, who could at the right moment, give recommendations to ask follow up questions.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072093,
+        "id": "US-01",
+        "quality": {
+          "implement": {
+            "grade": "warn",
+            "criterion": "unambiguous",
+            "reason": "'Real-time' and 'contextually appropriate moments' are undefined thresholds—a developer cannot determine the exact latency or trigger conditions required."
+          },
+          "verify": {
+            "grade": "warn",
+            "criterion": "verifiable",
+            "reason": "'Incomplete or ambiguous topic' has no objective detection criteria, making it unclear how a tester would confirm the recommendation was correctly triggered."
+          },
+          "maintain": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The role, intent, and three acceptance conditions are clearly stated, giving a future RE enough context to revise the story safely."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "the live follow-up recommendation feature to be active by default, with an option to deactivate it",
+        "soThat": "I benefit from real-time guidance in standard interviews while retaining the ability to turn it off when the situation requires it",
+        "acceptanceCriteria": [
+          "On starting a new interview session, live feedback is enabled by default without any manual configuration.",
+          "A clearly visible toggle allows the RE to deactivate live feedback before or during a session.",
+          "When live feedback is deactivated, no real-time recommendations are shown until it is re-enabled."
+        ],
+        "trace": "Tool should stick to live meeting, but there is option to deactivate live feedback, the live direct feedback feature is default though.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072093,
+        "id": "US-02",
+        "quality": {
+          "implement": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "Default-on behaviour, a visible toggle, and the off-state behaviour are all specified clearly enough for a developer to implement without guessing."
+          },
+          "verify": {
+            "grade": "pass",
+            "criterion": "verifiable",
+            "reason": "Each AC is binary and observable: default state on session start, presence of a toggle, and absence of recommendations when disabled are all directly testable."
+          },
+          "maintain": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The feature scope is narrow and self-contained, so a future RE can safely change the default or toggle behaviour without ambiguity."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "the system to generate a comprehensive interview summary that captures more detail than a human note-taker would produce",
+        "soThat": "the entire team can rely on the summary as a complete and valuable record of what was discussed",
+        "acceptanceCriteria": [
+          "The generated summary contains all key decisions, open questions, and requirements topics identified during the interview.",
+          "A team member who did not attend the interview can reconstruct the full discussion context from the summary alone.",
+          "The summary is available to all authorised team members immediately after the session ends."
+        ],
+        "trace": "the summary of the interview are sometimes insufficient, so the tool needs to create as much as a summary that are valuable to the whole team.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072094,
+        "id": "US-03",
+        "quality": {
+          "implement": {
+            "grade": "fail",
+            "criterion": "unambiguous",
+            "reason": "'More detail than a human note-taker would produce' and 'comprehensive' are subjective comparisons with no measurable specification, leaving a developer with no concrete implementation target."
+          },
+          "verify": {
+            "grade": "fail",
+            "criterion": "verifiable",
+            "reason": "AC2 ('reconstruct the full discussion context') is a subjective human judgement with no objective pass/fail criterion a tester can apply consistently."
+          },
+          "maintain": {
+            "grade": "warn",
+            "criterion": "complete",
+            "reason": "The story omits format, length, or structure requirements for the summary, which a future RE would need to add before safe modification."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "every system suggestion to include a traceable reference to the specific part of the conversation that triggered it",
+        "soThat": "I can verify the basis of each suggestion and maintain a clear audit trail",
+        "acceptanceCriteria": [
+          "Each suggestion displayed by the system is accompanied by a reference (e.g., timestamp or quoted excerpt) pointing to the conversation segment that grounded it.",
+          "Clicking or selecting the reference navigates the RE to the corresponding part of the transcript.",
+          "A suggestion without a valid conversation reference is not shown to the user."
+        ],
+        "trace": "Tools make suggestions based on discussion between interviewers, and the suggestions always have references to which part of conversation/discussion being made.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072094,
+        "id": "US-04",
+        "quality": {
+          "implement": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The three ACs specify reference format examples, navigation behaviour, and suppression of unreferenced suggestions—sufficient for a developer to build against."
+          },
+          "verify": {
+            "grade": "pass",
+            "criterion": "verifiable",
+            "reason": "All three ACs are objectively testable: presence of a reference, navigation on selection, and non-display of unreferenced suggestions can each be confirmed mechanically."
+          },
+          "maintain": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The audit-trail rationale and reference mechanism are clearly documented, allowing a future RE to extend or modify traceability rules safely."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "the system to detect repeated patterns across suggestions and consolidate them so that only deduplicated, non-redundant recommendations are presented",
+        "soThat": "I am not overwhelmed by unnecessary repetitions of the same underlying issue",
+        "acceptanceCriteria": [
+          "When two or more suggestions address the same underlying pattern, the system merges them into a single consolidated recommendation.",
+          "The consolidated recommendation clearly indicates how many original suggestions it represents.",
+          "No duplicate suggestions for the same detected issue appear in the recommendation list within a single session."
+        ],
+        "trace": "the tool needs to be able to connect the pattern of the issue, so that there will be no unnecessary repetition.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072094,
+        "id": "US-05",
+        "quality": {
+          "implement": {
+            "grade": "warn",
+            "criterion": "unambiguous",
+            "reason": "'Same underlying pattern' is not defined—a developer cannot determine the similarity metric or threshold that triggers consolidation."
+          },
+          "verify": {
+            "grade": "warn",
+            "criterion": "verifiable",
+            "reason": "Without a defined similarity criterion, a tester cannot objectively decide whether two suggestions address the 'same' pattern and should have been merged."
+          },
+          "maintain": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The deduplication intent and the count-display requirement are clear enough for a future RE to refine the similarity definition without misunderstanding the goal."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "the system to detect and explicitly flag conflicting suggestions so that contradictions can be resolved through follow-up questions",
+        "soThat": "I can address contradictions before they propagate into the requirements specification",
+        "acceptanceCriteria": [
+          "When two suggestions contradict each other, the system labels both as conflicting and groups them visually.",
+          "The system proposes at least one follow-up question aimed at resolving the detected conflict.",
+          "The RE can mark a conflict as resolved, which removes the conflict flag from the affected suggestions."
+        ],
+        "trace": "Tools should handle conflicting suggestions and be able to ask follow up questions.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072095,
+        "id": "US-06",
+        "quality": {
+          "implement": {
+            "grade": "warn",
+            "criterion": "unambiguous",
+            "reason": "'Contradict each other' is not operationally defined—a developer has no rule or criterion for what constitutes a contradiction between suggestions."
+          },
+          "verify": {
+            "grade": "warn",
+            "criterion": "verifiable",
+            "reason": "A tester cannot objectively construct a conflict test case without knowing the detection logic, making AC1 difficult to verify reliably."
+          },
+          "maintain": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The visual grouping, follow-up question proposal, and resolution flag are clearly described, giving a future RE enough structure to refine conflict rules."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "the system to operate as an intelligent layer that reads from and interacts with existing DevOps tools, databases, and legal artefacts without modifying them",
+        "soThat": "the integrity and legal validity of all existing artefacts are preserved",
+        "acceptanceCriteria": [
+          "The system can query and display information from connected DevOps tools and data sources during a session.",
+          "No write, update, or delete operation is performed on any existing artefact by the system automatically.",
+          "An audit log confirms that all interactions with external sources were read-only."
+        ],
+        "trace": "Nothing is automatically changed in the current or precious artifacts that were stored, there is a legal aspect to it. Cannot alter automatically.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072095,
+        "id": "US-07",
+        "quality": {
+          "implement": {
+            "grade": "warn",
+            "criterion": "complete",
+            "reason": "The AC lists no specific DevOps tools, protocols, or authentication methods, leaving a developer unable to determine the scope and integration mechanism."
+          },
+          "verify": {
+            "grade": "pass",
+            "criterion": "verifiable",
+            "reason": "Read-only behaviour is objectively testable via the audit log AC, and the absence of write/update/delete operations can be confirmed by log inspection."
+          },
+          "maintain": {
+            "grade": "warn",
+            "criterion": "complete",
+            "reason": "The list of 'existing DevOps tools, databases, and legal artefacts' is unspecified, so a future RE cannot safely determine what integrations are in or out of scope."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "new artefacts produced during or after an interview to be added to the existing sources of truth (backlog, model, SharePoint) without overwriting prior entries",
+        "soThat": "the knowledge base grows incrementally while historical records remain intact",
+        "acceptanceCriteria": [
+          "A newly created artefact is appended to the designated source of truth as a new entry.",
+          "No existing entry in the backlog, model, or SharePoint is modified or deleted as a result of adding a new artefact.",
+          "The system confirms successful addition and displays the new entry alongside the unchanged historical entries."
+        ],
+        "trace": "source of truth is backlog, model and share points, if there are new artifacts we just add up to it.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072095,
+        "id": "US-08",
+        "quality": {
+          "implement": {
+            "grade": "warn",
+            "criterion": "complete",
+            "reason": "The story names 'backlog, model, SharePoint' but specifies no API, connection method, or data format, leaving integration mechanics undefined for a developer."
+          },
+          "verify": {
+            "grade": "pass",
+            "criterion": "verifiable",
+            "reason": "AC2 (no existing entry modified or deleted) and AC3 (confirmation and display of new entry alongside historical entries) are observable and mechanically testable."
+          },
+          "maintain": {
+            "grade": "warn",
+            "criterion": "complete",
+            "reason": "The enumeration of target sources is open-ended ('backlog, model, SharePoint') with no exhaustive list or extension rule, making future scope changes risky."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "the system to maintain a detailed change log for each interview session that records who accessed it and what actions were taken",
+        "soThat": "developers and authorised team members have full visibility into the history of the session beyond a simple project log",
+        "acceptanceCriteria": [
+          "Every access event and action (e.g., suggestion accepted, note added) is recorded with a timestamp and the identity of the actor.",
+          "The change log is accessible to authorised developers and team members, not restricted to project managers only.",
+          "The log is immutable; existing entries cannot be edited or deleted after they are written."
+        ],
+        "trace": "Needs approval, needs a log of changes in interview, who is accessible to the developer, not only the 'project log'.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072096,
+        "id": "US-09",
+        "quality": {
+          "implement": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "Timestamp, actor identity, immutability, and access-control rules are all specified, giving a developer clear implementation targets."
+          },
+          "verify": {
+            "grade": "pass",
+            "criterion": "verifiable",
+            "reason": "All three ACs are mechanically testable: log entry content, role-based access, and immutability (attempt to edit/delete and confirm rejection) can each be verified objectively."
+          },
+          "maintain": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The story clearly separates the change log from the project log and states the access and immutability constraints, making future changes safe."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "all generated requirements and suggestions to be clearly grounded in conversation content and flagged when they lack sufficient evidential support",
+        "soThat": "hallucinated or fabricated requirements cannot be inadvertently approved by stakeholders",
+        "acceptanceCriteria": [
+          "Each generated requirement displays its supporting evidence from the transcript; requirements with no traceable evidence are marked with a prominent warning.",
+          "The approval workflow blocks final approval of any requirement carrying an unresolved hallucination warning.",
+          "A tester can introduce a requirement with no transcript basis and verify that the system flags it before approval."
+        ],
+        "trace": "People approve hallucination requirements; this has to be avoided, this is the worst case. This will jeopardize the 'main goals'",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072096,
+        "id": "US-10",
+        "quality": {
+          "implement": {
+            "grade": "warn",
+            "criterion": "unambiguous",
+            "reason": "'Sufficient evidential support' is not quantified—a developer cannot determine the threshold of transcript evidence required to suppress the hallucination warning."
+          },
+          "verify": {
+            "grade": "pass",
+            "criterion": "verifiable",
+            "reason": "AC3 explicitly provides a concrete test procedure (introduce a requirement with no transcript basis and verify flagging), making this directly executable."
+          },
+          "maintain": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The anti-hallucination rationale, warning mechanism, and approval-blocking rule are clearly stated, allowing a future RE to adjust thresholds without misunderstanding intent."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "the system to support interview sessions with up to five concurrent participants",
+        "soThat": "typical elicitation meetings involving a small group of stakeholders are fully covered",
+        "acceptanceCriteria": [
+          "A session can be configured with between one and five named participants.",
+          "The system correctly attributes statements and suggestions to the appropriate participant when multiple speakers are active.",
+          "Attempting to add a sixth participant is prevented and an informative message is shown."
+        ],
+        "trace": "Maximum 4-5 people during one interview.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072096,
+        "id": "US-11",
+        "quality": {
+          "implement": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The participant range (1–5), speaker attribution requirement, and sixth-participant rejection with message are all precisely specified for implementation."
+          },
+          "verify": {
+            "grade": "pass",
+            "criterion": "verifiable",
+            "reason": "Each AC is directly testable: configure sessions with 1 and 5 participants, verify attribution, and confirm the sixth-participant error message appears."
+          },
+          "maintain": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The numeric boundary and attribution requirement are unambiguous, so a future RE can safely raise or lower the participant limit."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "the system to be pre-educated with general domain knowledge by default so that it operates meaningfully without requiring manual configuration or feeding",
+        "soThat": "I can start using the tool immediately without an extensive setup phase",
+        "acceptanceCriteria": [
+          "On first launch, the system can generate contextually relevant follow-up questions for a standard RE elicitation scenario without any prior user configuration.",
+          "The system does not prompt the user to upload or provide background knowledge before the first session.",
+          "A baseline set of domain assumptions is verifiably present in the system at installation time."
+        ],
+        "trace": "the system should make perfect sense by default, like already pre educated by default.",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072096,
+        "id": "US-12",
+        "quality": {
+          "implement": {
+            "grade": "warn",
+            "criterion": "unambiguous",
+            "reason": "'General domain knowledge' and 'baseline set of domain assumptions' are not specified—a developer cannot determine what knowledge content must be pre-loaded."
+          },
+          "verify": {
+            "grade": "warn",
+            "criterion": "verifiable",
+            "reason": "AC3 requires a 'verifiably present' baseline, but there is no defined list or test oracle against which a tester can confirm the correct knowledge is present."
+          },
+          "maintain": {
+            "grade": "fail",
+            "criterion": "complete",
+            "reason": "The story contains no definition of scope, source, or update process for the pre-loaded domain knowledge, making it unsafe for a future RE to modify without risking regression."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "the system to comply with applicable German and European Union regulations when processing and storing interview data",
+        "soThat": "the tool can be legally deployed and used by Germany-based companies without regulatory risk",
+        "acceptanceCriteria": [
+          "A compliance checklist referencing the relevant German and EU regulations is produced and reviewed before the system is deployed.",
+          "The system does not transfer personal or confidential interview data in a manner that violates identified regulatory requirements.",
+          "A legal review sign-off is required before the system goes into production use."
+        ],
+        "trace": "following German regulation",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072097,
+        "id": "US-13",
+        "quality": {
+          "implement": {
+            "grade": "warn",
+            "criterion": "complete",
+            "reason": "The AC defers all technical specifics to a compliance checklist that does not yet exist, so a developer has no concrete data-handling or storage rules to implement against."
+          },
+          "verify": {
+            "grade": "warn",
+            "criterion": "verifiable",
+            "reason": "Verification depends on a legal review sign-off and an unproduced checklist, making automated or repeatable test confirmation impossible."
+          },
+          "maintain": {
+            "grade": "warn",
+            "criterion": "complete",
+            "reason": "Citing 'applicable German and EU regulations' without naming them (e.g., GDPR, BDSG) means a future RE cannot determine whether new regulations fall in scope."
+          }
+        },
+        "qualityStale": false
+      },
+      {
+        "role": "Requirement Engineer",
+        "want": "interview transcripts to be stored in a local database rather than a cloud service",
+        "soThat": "data residency and organisational control requirements are satisfied",
+        "acceptanceCriteria": [
+          "All interview transcripts are written exclusively to a locally hosted database instance.",
+          "No transcript data is transmitted to or stored in an external cloud storage service.",
+          "The local storage location is configurable by an administrator without modifying application source code."
+        ],
+        "trace": "The database (interview transcript) should be somewhere local, not cloud,, actually he doesnt really care! :)",
+        "traceSpeaker": "Stakeholder",
+        "grounded": true,
+        "status": "accepted",
+        "ts": 1783335072097,
+        "id": "US-14",
+        "quality": {
+          "implement": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "'Locally hosted database', prohibition on external cloud transmission, and admin-configurable storage path without source-code changes are all concrete implementation constraints."
+          },
+          "verify": {
+            "grade": "pass",
+            "criterion": "verifiable",
+            "reason": "All three ACs are objectively testable: inspect write destination, monitor network traffic for cloud transmissions, and confirm configuration change without code edit."
+          },
+          "maintain": {
+            "grade": "pass",
+            "criterion": "adequate",
+            "reason": "The data-residency rationale and configurable-path requirement are clearly stated, allowing a future RE to safely revise storage or configuration rules."
+          }
+        },
+        "qualityStale": false
+      }
+    ],
+    "reviews": [
+      {
+        "candidateId": "US-01",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335227870
+      },
+      {
+        "candidateId": "US-02",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335229670
+      },
+      {
+        "candidateId": "US-03",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335259460,
+        "note": "accepted despite unresolved fail: implement, verify"
+      },
+      {
+        "candidateId": "US-04",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335262956
+      },
+      {
+        "candidateId": "US-05",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335265125
+      },
+      {
+        "candidateId": "US-06",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335267623
+      },
+      {
+        "candidateId": "US-07",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335269657
+      },
+      {
+        "candidateId": "US-08",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335272224
+      },
+      {
+        "candidateId": "US-09",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335274657
+      },
+      {
+        "candidateId": "US-10",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335277210
+      },
+      {
+        "candidateId": "US-11",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335279427
+      },
+      {
+        "candidateId": "US-12",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335283176,
+        "note": "accepted despite unresolved fail: maintain"
+      },
+      {
+        "candidateId": "US-13",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335285411
+      },
+      {
+        "candidateId": "US-14",
+        "status": "accepted",
+        "approver": "RE",
+        "ts": 1783335287942
+      }
+    ],
+    "llmCallCount": 2
+  },
+  "goals": [
+    {
+      "id": "ec-mr93eoq3-0",
+      "kind": "goal",
+      "statement": "The system shall guide Requirement Engineers during elicitation interviews by recommending follow-up questions at the right moment, so that all required information is gathered and documented properly.",
+      "trace": "The tool is like a mentor or consultant, who could at the right moment, give recommendations to ask follow up questions.",
+      "traceSpeaker": "Stakeholder",
+      "traceTurnId": "t-mr93e0hf-h",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783334652843
+    },
+    {
+      "id": "ec-mr93eoq3-1",
+      "kind": "goal",
+      "statement": "The system shall produce complete and valuable interview summaries that go beyond what a human note-taker would capture, making them useful to the whole team.",
+      "trace": "the summary of the interview are sometimes insufficient, so the tool needs to create as much as a summary that are valuable to the whole team.",
+      "traceSpeaker": "Stakeholder",
+      "traceTurnId": "t-mr93e0hf-h",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783334652843
+    },
+    {
+      "id": "ec-mr93eoq3-2",
+      "kind": "goal",
+      "statement": "The system shall act as an intelligent layer on top of existing DevOps tools, databases, and legal artefacts without altering any of them.",
+      "trace": "the tools is the additional intelligent layer on top of the current devops tools and the whole data and rules.",
+      "traceSpeaker": "Stakeholder",
+      "traceTurnId": "t-mr937il9-3",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783334652843
+    },
+    {
+      "id": "ec-mr93eoq3-3",
+      "kind": "obstacle",
+      "statement": "Existing tools, databases, and legal artefacts are fixed and cannot be changed, constraining the system's ability to improve or correct stored information automatically.",
+      "trace": "Nothing is automatically changed in the current or precious artifacts that were stored, there is a legal aspect to it. Cannot alter automatically.",
+      "traceSpeaker": "Stakeholder",
+      "traceTurnId": "t-mr93amnw-b",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783334652843
+    },
+    {
+      "id": "ec-mr93eoq3-4",
+      "kind": "obstacle",
+      "statement": "Hallucinated or fabricated requirements may be approved by stakeholders, directly jeopardising the main goal of reliable and complete requirements documentation.",
+      "trace": "People approve hallucination requirements; this has to be avoided, this is the worst case. This will jeopardize the 'main goals'",
+      "traceSpeaker": "Stakeholder",
+      "traceTurnId": "t-mr93e0hf-h",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783334652843
+    },
+    {
+      "id": "ec-mr93eoq4-5",
+      "kind": "goal",
+      "statement": "The system shall deduplicate and consolidate suggestions by detecting patterns across issues so that no unnecessary repetitions are presented to the user.",
+      "trace": "the tool needs to be able to connect the pattern of the issue, so that there will be no unnecessary repetition.",
+      "traceSpeaker": "Stakeholder",
+      "traceTurnId": "t-mr93e0hf-h",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783334652844
+    },
+    {
+      "id": "ec-mr93eoq4-6",
+      "kind": "gap",
+      "statement": "The criteria and mechanism by which the system forms and validates world-context assumptions — while remaining cautious — have not yet been defined.",
+      "trace": "The system should also create a senseful assumption of the world and reflect on the condition of the world, not only reading or memorizing the request or requirement blindly. But it should be careful when it comes to creating assumptions about the world.",
+      "traceSpeaker": "Stakeholder",
+      "traceTurnId": "t-mr938ds1-5",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783334652844
+    },
+    {
+      "id": "ec-mr93eoq4-7",
+      "kind": "openIssue",
+      "statement": "The storage location for interview transcripts (local vs. cloud) has not been decided and must be resolved before architecture design. the database is local.",
+      "trace": "The database (interview transcript) should be somewhere local, not cloud,, actually he doesnt really care! :)",
+      "traceSpeaker": "Stakeholder",
+      "traceTurnId": "t-mr93e0hf-h",
+      "grounded": true,
+      "status": "edited",
+      "ts": 1783334652844
+    },
+    {
+      "id": "hc-mr93lmvs-0",
+      "kind": "obstacle",
+      "statement": "The system must follow German and European Union regulation which is not defined here yet.",
+      "trace": "",
+      "grounded": false,
+      "humanAdded": true,
+      "status": "edited",
+      "ts": 1783334977048
+    }
+  ],
+  "approved": [
+    {
+      "role": "Requirement Engineer",
+      "want": "to receive real-time follow-up question recommendations from the system during an elicitation interview",
+      "soThat": "I can ensure all required information is gathered without missing critical topics",
+      "acceptanceCriteria": [
+        "The system surfaces a follow-up question recommendation within the active interview session when a topic is detected as incomplete or ambiguous.",
+        "Recommendations are presented at contextually appropriate moments during the conversation, not only at the end.",
+        "The RE can act on or dismiss each recommendation without interrupting the interview flow."
+      ],
+      "trace": "The tool is like a mentor or consultant, who could at the right moment, give recommendations to ask follow up questions.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072093,
+      "id": "US-01",
+      "quality": {
+        "implement": {
+          "grade": "warn",
+          "criterion": "unambiguous",
+          "reason": "'Real-time' and 'contextually appropriate moments' are undefined thresholds—a developer cannot determine the exact latency or trigger conditions required."
+        },
+        "verify": {
+          "grade": "warn",
+          "criterion": "verifiable",
+          "reason": "'Incomplete or ambiguous topic' has no objective detection criteria, making it unclear how a tester would confirm the recommendation was correctly triggered."
+        },
+        "maintain": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The role, intent, and three acceptance conditions are clearly stated, giving a future RE enough context to revise the story safely."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "the live follow-up recommendation feature to be active by default, with an option to deactivate it",
+      "soThat": "I benefit from real-time guidance in standard interviews while retaining the ability to turn it off when the situation requires it",
+      "acceptanceCriteria": [
+        "On starting a new interview session, live feedback is enabled by default without any manual configuration.",
+        "A clearly visible toggle allows the RE to deactivate live feedback before or during a session.",
+        "When live feedback is deactivated, no real-time recommendations are shown until it is re-enabled."
+      ],
+      "trace": "Tool should stick to live meeting, but there is option to deactivate live feedback, the live direct feedback feature is default though.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072093,
+      "id": "US-02",
+      "quality": {
+        "implement": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "Default-on behaviour, a visible toggle, and the off-state behaviour are all specified clearly enough for a developer to implement without guessing."
+        },
+        "verify": {
+          "grade": "pass",
+          "criterion": "verifiable",
+          "reason": "Each AC is binary and observable: default state on session start, presence of a toggle, and absence of recommendations when disabled are all directly testable."
+        },
+        "maintain": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The feature scope is narrow and self-contained, so a future RE can safely change the default or toggle behaviour without ambiguity."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "the system to generate a comprehensive interview summary that captures more detail than a human note-taker would produce",
+      "soThat": "the entire team can rely on the summary as a complete and valuable record of what was discussed",
+      "acceptanceCriteria": [
+        "The generated summary contains all key decisions, open questions, and requirements topics identified during the interview.",
+        "A team member who did not attend the interview can reconstruct the full discussion context from the summary alone.",
+        "The summary is available to all authorised team members immediately after the session ends."
+      ],
+      "trace": "the summary of the interview are sometimes insufficient, so the tool needs to create as much as a summary that are valuable to the whole team.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072094,
+      "id": "US-03",
+      "quality": {
+        "implement": {
+          "grade": "fail",
+          "criterion": "unambiguous",
+          "reason": "'More detail than a human note-taker would produce' and 'comprehensive' are subjective comparisons with no measurable specification, leaving a developer with no concrete implementation target."
+        },
+        "verify": {
+          "grade": "fail",
+          "criterion": "verifiable",
+          "reason": "AC2 ('reconstruct the full discussion context') is a subjective human judgement with no objective pass/fail criterion a tester can apply consistently."
+        },
+        "maintain": {
+          "grade": "warn",
+          "criterion": "complete",
+          "reason": "The story omits format, length, or structure requirements for the summary, which a future RE would need to add before safe modification."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "every system suggestion to include a traceable reference to the specific part of the conversation that triggered it",
+      "soThat": "I can verify the basis of each suggestion and maintain a clear audit trail",
+      "acceptanceCriteria": [
+        "Each suggestion displayed by the system is accompanied by a reference (e.g., timestamp or quoted excerpt) pointing to the conversation segment that grounded it.",
+        "Clicking or selecting the reference navigates the RE to the corresponding part of the transcript.",
+        "A suggestion without a valid conversation reference is not shown to the user."
+      ],
+      "trace": "Tools make suggestions based on discussion between interviewers, and the suggestions always have references to which part of conversation/discussion being made.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072094,
+      "id": "US-04",
+      "quality": {
+        "implement": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The three ACs specify reference format examples, navigation behaviour, and suppression of unreferenced suggestions—sufficient for a developer to build against."
+        },
+        "verify": {
+          "grade": "pass",
+          "criterion": "verifiable",
+          "reason": "All three ACs are objectively testable: presence of a reference, navigation on selection, and non-display of unreferenced suggestions can each be confirmed mechanically."
+        },
+        "maintain": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The audit-trail rationale and reference mechanism are clearly documented, allowing a future RE to extend or modify traceability rules safely."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "the system to detect repeated patterns across suggestions and consolidate them so that only deduplicated, non-redundant recommendations are presented",
+      "soThat": "I am not overwhelmed by unnecessary repetitions of the same underlying issue",
+      "acceptanceCriteria": [
+        "When two or more suggestions address the same underlying pattern, the system merges them into a single consolidated recommendation.",
+        "The consolidated recommendation clearly indicates how many original suggestions it represents.",
+        "No duplicate suggestions for the same detected issue appear in the recommendation list within a single session."
+      ],
+      "trace": "the tool needs to be able to connect the pattern of the issue, so that there will be no unnecessary repetition.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072094,
+      "id": "US-05",
+      "quality": {
+        "implement": {
+          "grade": "warn",
+          "criterion": "unambiguous",
+          "reason": "'Same underlying pattern' is not defined—a developer cannot determine the similarity metric or threshold that triggers consolidation."
+        },
+        "verify": {
+          "grade": "warn",
+          "criterion": "verifiable",
+          "reason": "Without a defined similarity criterion, a tester cannot objectively decide whether two suggestions address the 'same' pattern and should have been merged."
+        },
+        "maintain": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The deduplication intent and the count-display requirement are clear enough for a future RE to refine the similarity definition without misunderstanding the goal."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "the system to detect and explicitly flag conflicting suggestions so that contradictions can be resolved through follow-up questions",
+      "soThat": "I can address contradictions before they propagate into the requirements specification",
+      "acceptanceCriteria": [
+        "When two suggestions contradict each other, the system labels both as conflicting and groups them visually.",
+        "The system proposes at least one follow-up question aimed at resolving the detected conflict.",
+        "The RE can mark a conflict as resolved, which removes the conflict flag from the affected suggestions."
+      ],
+      "trace": "Tools should handle conflicting suggestions and be able to ask follow up questions.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072095,
+      "id": "US-06",
+      "quality": {
+        "implement": {
+          "grade": "warn",
+          "criterion": "unambiguous",
+          "reason": "'Contradict each other' is not operationally defined—a developer has no rule or criterion for what constitutes a contradiction between suggestions."
+        },
+        "verify": {
+          "grade": "warn",
+          "criterion": "verifiable",
+          "reason": "A tester cannot objectively construct a conflict test case without knowing the detection logic, making AC1 difficult to verify reliably."
+        },
+        "maintain": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The visual grouping, follow-up question proposal, and resolution flag are clearly described, giving a future RE enough structure to refine conflict rules."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "the system to operate as an intelligent layer that reads from and interacts with existing DevOps tools, databases, and legal artefacts without modifying them",
+      "soThat": "the integrity and legal validity of all existing artefacts are preserved",
+      "acceptanceCriteria": [
+        "The system can query and display information from connected DevOps tools and data sources during a session.",
+        "No write, update, or delete operation is performed on any existing artefact by the system automatically.",
+        "An audit log confirms that all interactions with external sources were read-only."
+      ],
+      "trace": "Nothing is automatically changed in the current or precious artifacts that were stored, there is a legal aspect to it. Cannot alter automatically.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072095,
+      "id": "US-07",
+      "quality": {
+        "implement": {
+          "grade": "warn",
+          "criterion": "complete",
+          "reason": "The AC lists no specific DevOps tools, protocols, or authentication methods, leaving a developer unable to determine the scope and integration mechanism."
+        },
+        "verify": {
+          "grade": "pass",
+          "criterion": "verifiable",
+          "reason": "Read-only behaviour is objectively testable via the audit log AC, and the absence of write/update/delete operations can be confirmed by log inspection."
+        },
+        "maintain": {
+          "grade": "warn",
+          "criterion": "complete",
+          "reason": "The list of 'existing DevOps tools, databases, and legal artefacts' is unspecified, so a future RE cannot safely determine what integrations are in or out of scope."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "new artefacts produced during or after an interview to be added to the existing sources of truth (backlog, model, SharePoint) without overwriting prior entries",
+      "soThat": "the knowledge base grows incrementally while historical records remain intact",
+      "acceptanceCriteria": [
+        "A newly created artefact is appended to the designated source of truth as a new entry.",
+        "No existing entry in the backlog, model, or SharePoint is modified or deleted as a result of adding a new artefact.",
+        "The system confirms successful addition and displays the new entry alongside the unchanged historical entries."
+      ],
+      "trace": "source of truth is backlog, model and share points, if there are new artifacts we just add up to it.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072095,
+      "id": "US-08",
+      "quality": {
+        "implement": {
+          "grade": "warn",
+          "criterion": "complete",
+          "reason": "The story names 'backlog, model, SharePoint' but specifies no API, connection method, or data format, leaving integration mechanics undefined for a developer."
+        },
+        "verify": {
+          "grade": "pass",
+          "criterion": "verifiable",
+          "reason": "AC2 (no existing entry modified or deleted) and AC3 (confirmation and display of new entry alongside historical entries) are observable and mechanically testable."
+        },
+        "maintain": {
+          "grade": "warn",
+          "criterion": "complete",
+          "reason": "The enumeration of target sources is open-ended ('backlog, model, SharePoint') with no exhaustive list or extension rule, making future scope changes risky."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "the system to maintain a detailed change log for each interview session that records who accessed it and what actions were taken",
+      "soThat": "developers and authorised team members have full visibility into the history of the session beyond a simple project log",
+      "acceptanceCriteria": [
+        "Every access event and action (e.g., suggestion accepted, note added) is recorded with a timestamp and the identity of the actor.",
+        "The change log is accessible to authorised developers and team members, not restricted to project managers only.",
+        "The log is immutable; existing entries cannot be edited or deleted after they are written."
+      ],
+      "trace": "Needs approval, needs a log of changes in interview, who is accessible to the developer, not only the 'project log'.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072096,
+      "id": "US-09",
+      "quality": {
+        "implement": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "Timestamp, actor identity, immutability, and access-control rules are all specified, giving a developer clear implementation targets."
+        },
+        "verify": {
+          "grade": "pass",
+          "criterion": "verifiable",
+          "reason": "All three ACs are mechanically testable: log entry content, role-based access, and immutability (attempt to edit/delete and confirm rejection) can each be verified objectively."
+        },
+        "maintain": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The story clearly separates the change log from the project log and states the access and immutability constraints, making future changes safe."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "all generated requirements and suggestions to be clearly grounded in conversation content and flagged when they lack sufficient evidential support",
+      "soThat": "hallucinated or fabricated requirements cannot be inadvertently approved by stakeholders",
+      "acceptanceCriteria": [
+        "Each generated requirement displays its supporting evidence from the transcript; requirements with no traceable evidence are marked with a prominent warning.",
+        "The approval workflow blocks final approval of any requirement carrying an unresolved hallucination warning.",
+        "A tester can introduce a requirement with no transcript basis and verify that the system flags it before approval."
+      ],
+      "trace": "People approve hallucination requirements; this has to be avoided, this is the worst case. This will jeopardize the 'main goals'",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072096,
+      "id": "US-10",
+      "quality": {
+        "implement": {
+          "grade": "warn",
+          "criterion": "unambiguous",
+          "reason": "'Sufficient evidential support' is not quantified—a developer cannot determine the threshold of transcript evidence required to suppress the hallucination warning."
+        },
+        "verify": {
+          "grade": "pass",
+          "criterion": "verifiable",
+          "reason": "AC3 explicitly provides a concrete test procedure (introduce a requirement with no transcript basis and verify flagging), making this directly executable."
+        },
+        "maintain": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The anti-hallucination rationale, warning mechanism, and approval-blocking rule are clearly stated, allowing a future RE to adjust thresholds without misunderstanding intent."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "the system to support interview sessions with up to five concurrent participants",
+      "soThat": "typical elicitation meetings involving a small group of stakeholders are fully covered",
+      "acceptanceCriteria": [
+        "A session can be configured with between one and five named participants.",
+        "The system correctly attributes statements and suggestions to the appropriate participant when multiple speakers are active.",
+        "Attempting to add a sixth participant is prevented and an informative message is shown."
+      ],
+      "trace": "Maximum 4-5 people during one interview.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072096,
+      "id": "US-11",
+      "quality": {
+        "implement": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The participant range (1–5), speaker attribution requirement, and sixth-participant rejection with message are all precisely specified for implementation."
+        },
+        "verify": {
+          "grade": "pass",
+          "criterion": "verifiable",
+          "reason": "Each AC is directly testable: configure sessions with 1 and 5 participants, verify attribution, and confirm the sixth-participant error message appears."
+        },
+        "maintain": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The numeric boundary and attribution requirement are unambiguous, so a future RE can safely raise or lower the participant limit."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "the system to be pre-educated with general domain knowledge by default so that it operates meaningfully without requiring manual configuration or feeding",
+      "soThat": "I can start using the tool immediately without an extensive setup phase",
+      "acceptanceCriteria": [
+        "On first launch, the system can generate contextually relevant follow-up questions for a standard RE elicitation scenario without any prior user configuration.",
+        "The system does not prompt the user to upload or provide background knowledge before the first session.",
+        "A baseline set of domain assumptions is verifiably present in the system at installation time."
+      ],
+      "trace": "the system should make perfect sense by default, like already pre educated by default.",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072096,
+      "id": "US-12",
+      "quality": {
+        "implement": {
+          "grade": "warn",
+          "criterion": "unambiguous",
+          "reason": "'General domain knowledge' and 'baseline set of domain assumptions' are not specified—a developer cannot determine what knowledge content must be pre-loaded."
+        },
+        "verify": {
+          "grade": "warn",
+          "criterion": "verifiable",
+          "reason": "AC3 requires a 'verifiably present' baseline, but there is no defined list or test oracle against which a tester can confirm the correct knowledge is present."
+        },
+        "maintain": {
+          "grade": "fail",
+          "criterion": "complete",
+          "reason": "The story contains no definition of scope, source, or update process for the pre-loaded domain knowledge, making it unsafe for a future RE to modify without risking regression."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "the system to comply with applicable German and European Union regulations when processing and storing interview data",
+      "soThat": "the tool can be legally deployed and used by Germany-based companies without regulatory risk",
+      "acceptanceCriteria": [
+        "A compliance checklist referencing the relevant German and EU regulations is produced and reviewed before the system is deployed.",
+        "The system does not transfer personal or confidential interview data in a manner that violates identified regulatory requirements.",
+        "A legal review sign-off is required before the system goes into production use."
+      ],
+      "trace": "following German regulation",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072097,
+      "id": "US-13",
+      "quality": {
+        "implement": {
+          "grade": "warn",
+          "criterion": "complete",
+          "reason": "The AC defers all technical specifics to a compliance checklist that does not yet exist, so a developer has no concrete data-handling or storage rules to implement against."
+        },
+        "verify": {
+          "grade": "warn",
+          "criterion": "verifiable",
+          "reason": "Verification depends on a legal review sign-off and an unproduced checklist, making automated or repeatable test confirmation impossible."
+        },
+        "maintain": {
+          "grade": "warn",
+          "criterion": "complete",
+          "reason": "Citing 'applicable German and EU regulations' without naming them (e.g., GDPR, BDSG) means a future RE cannot determine whether new regulations fall in scope."
+        }
+      },
+      "qualityStale": false
+    },
+    {
+      "role": "Requirement Engineer",
+      "want": "interview transcripts to be stored in a local database rather than a cloud service",
+      "soThat": "data residency and organisational control requirements are satisfied",
+      "acceptanceCriteria": [
+        "All interview transcripts are written exclusively to a locally hosted database instance.",
+        "No transcript data is transmitted to or stored in an external cloud storage service.",
+        "The local storage location is configurable by an administrator without modifying application source code."
+      ],
+      "trace": "The database (interview transcript) should be somewhere local, not cloud,, actually he doesnt really care! :)",
+      "traceSpeaker": "Stakeholder",
+      "grounded": true,
+      "status": "accepted",
+      "ts": 1783335072097,
+      "id": "US-14",
+      "quality": {
+        "implement": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "'Locally hosted database', prohibition on external cloud transmission, and admin-configurable storage path without source-code changes are all concrete implementation constraints."
+        },
+        "verify": {
+          "grade": "pass",
+          "criterion": "verifiable",
+          "reason": "All three ACs are objectively testable: inspect write destination, monitor network traffic for cloud transmissions, and confirm configuration change without code edit."
+        },
+        "maintain": {
+          "grade": "pass",
+          "criterion": "adequate",
+          "reason": "The data-residency rationale and configurable-path requirement are clearly stated, allowing a future RE to safely revise storage or configuration rules."
+        }
+      },
+      "qualityStale": false
+    }
+  ],
+  "scopePrefix": "US",
+  "changeLog": [
+    {
+      "ts": 1783334848656,
+      "id": "ec-mr93eoq4-7",
+      "status": "edited",
+      "approver": "RE",
+      "stage": "elicitation"
+    },
+    {
+      "ts": 1783334997136,
+      "id": "hc-mr93lmvs-0",
+      "status": "edited",
+      "approver": "RE",
+      "stage": "elicitation"
+    },
+    {
+      "ts": 1783335006134,
+      "id": "ec-mr93eoq4-6",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "elicitation"
+    },
+    {
+      "ts": 1783335007654,
+      "id": "ec-mr93eoq4-5",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "elicitation"
+    },
+    {
+      "ts": 1783335009386,
+      "id": "ec-mr93eoq3-4",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "elicitation"
+    },
+    {
+      "ts": 1783335010334,
+      "id": "ec-mr93eoq3-3",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "elicitation"
+    },
+    {
+      "ts": 1783335011954,
+      "id": "ec-mr93eoq3-2",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "elicitation"
+    },
+    {
+      "ts": 1783335013736,
+      "id": "ec-mr93eoq3-1",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "elicitation"
+    },
+    {
+      "ts": 1783335014735,
+      "id": "ec-mr93eoq3-0",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "elicitation"
+    },
+    {
+      "ts": 1783335227870,
+      "id": "US-01",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335229670,
+      "id": "US-02",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335259460,
+      "id": "US-03",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting",
+      "note": "accepted despite unresolved fail: implement, verify"
+    },
+    {
+      "ts": 1783335262956,
+      "id": "US-04",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335265125,
+      "id": "US-05",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335267623,
+      "id": "US-06",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335269657,
+      "id": "US-07",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335272224,
+      "id": "US-08",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335274657,
+      "id": "US-09",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335277210,
+      "id": "US-10",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335279427,
+      "id": "US-11",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335283176,
+      "id": "US-12",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting",
+      "note": "accepted despite unresolved fail: maintain"
+    },
+    {
+      "ts": 1783335285411,
+      "id": "US-13",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    },
+    {
+      "ts": 1783335287942,
+      "id": "US-14",
+      "status": "accepted",
+      "approver": "RE",
+      "stage": "drafting"
+    }
+  ]
+}
