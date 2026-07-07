@@ -71,8 +71,8 @@ export function TranscriptPanel({ turns, onAddTurn, onDeleteTurn, onEditTurn }: 
     const [editingTurn, setEditingTurn] = useState<string | null>(null);
     const [turnDraft, setTurnDraft] = useState("");
     const recRef = useRef<SpeechRecognitionLike | null>(null);
-    const baseRef = useRef(""); // committed (finalized) text — never lost
-    const interimRef = useRef(""); // latest not-yet-final words
+    const committedRef = useRef(""); // text locked in from ended sessions + initial text
+    const sessionFinalRef = useRef(""); // current session's finalized text (rebuilt each event)
     const wantOnRef = useRef(false); // true until the user taps the mic to stop
 
     const add = () => {
@@ -95,31 +95,30 @@ export function TranscriptPanel({ turns, onAddTurn, onDeleteTurn, onEditTurn }: 
         rec.continuous = true;
 
         rec.onresult = (e) => {
+            // Rebuild this session's transcript from scratch every time (from 0,
+            // not resultIndex). Mobile engines re-send the whole results list on
+            // each event; appending incrementally double-counts ("how how are you").
+            // Rebuilding is idempotent, so re-fires produce the same text.
+            let sessionFinal = "";
             let interim = "";
-            for (let i = e.resultIndex; i < e.results.length; i++) {
+            for (let i = 0; i < e.results.length; i++) {
                 const r = e.results[i];
-                if (r.isFinal) baseRef.current = join(baseRef.current, r[0].transcript);
+                if (r.isFinal) sessionFinal = join(sessionFinal, r[0].transcript);
                 else interim += r[0].transcript;
             }
-            interimRef.current = interim;
-            setText(join(baseRef.current, interimRef.current));
+            sessionFinalRef.current = sessionFinal;
+            setText(join(committedRef.current, join(sessionFinal, interim)));
         };
 
         rec.onend = () => {
-            // Commit any dangling interim words before restarting so they are
-            // never re-processed by the next fresh instance (prevents "how how how").
-            if (interimRef.current) {
-                baseRef.current = join(baseRef.current, interimRef.current);
-                interimRef.current = "";
-                setText(baseRef.current);
-            }
-            // Always create a brand-new instance on restart — never reuse the
-            // ended one. Reusing on mobile replays buffered audio and causes
-            // repeated words.
+            // Fold this session's finalized text into the committed transcript,
+            // then it's safe to start a fresh session with no overlap.
+            committedRef.current = join(committedRef.current, sessionFinalRef.current);
+            sessionFinalRef.current = "";
+            setText(committedRef.current);
             if (wantOnRef.current) {
                 window.setTimeout(() => {
-                    if (!wantOnRef.current) return;
-                    startRec(); // fresh instance every time
+                    if (wantOnRef.current) startRec();
                 }, 200);
             } else {
                 setListening(false);
@@ -127,14 +126,7 @@ export function TranscriptPanel({ turns, onAddTurn, onDeleteTurn, onEditTurn }: 
         };
 
         rec.onerror = () => {
-            // "no-speech" and "aborted" are normal on silence — onend handles restart.
-            // For any hard error, stop cleanly so the mic doesn't hang.
-            if (!wantOnRef.current) return;
-            const last = (recRef.current as unknown as { lastError?: string })?.lastError ?? "";
-            if (last !== "no-speech" && last !== "aborted") {
-                wantOnRef.current = false;
-                setListening(false);
-            }
+            // "no-speech" / "aborted" are normal on silence — onend handles restart.
         };
 
         recRef.current = rec;
@@ -153,8 +145,8 @@ export function TranscriptPanel({ turns, onAddTurn, onDeleteTurn, onEditTurn }: 
             setListening(false);
             return;
         }
-        baseRef.current = text ? text.trimEnd() : "";
-        interimRef.current = "";
+        committedRef.current = text ? text.trimEnd() : "";
+        sessionFinalRef.current = "";
         wantOnRef.current = true;
         setListening(true);
         startRec();
