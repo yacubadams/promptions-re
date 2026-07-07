@@ -106,37 +106,42 @@ export function TranscriptPanel({ turns, onAddTurn, onDeleteTurn, onEditTurn }: 
         };
 
         rec.onend = () => {
-            // Commit any dangling interim words so a pause never drops a half sentence.
+            // Commit any dangling interim words before restarting so they are
+            // never re-processed by the next fresh instance (prevents "how how how").
             if (interimRef.current) {
                 baseRef.current = join(baseRef.current, interimRef.current);
                 interimRef.current = "";
                 setText(baseRef.current);
             }
-            // Browsers like Samsung Internet end on a short silence. If the user hasn't
-            // tapped stop, restart so it feels continuous through the pause.
+            // Always create a brand-new instance on restart — never reuse the
+            // ended one. Reusing on mobile replays buffered audio and causes
+            // repeated words.
             if (wantOnRef.current) {
                 window.setTimeout(() => {
                     if (!wantOnRef.current) return;
-                    try {
-                        recRef.current?.start();
-                    } catch {
-                        startRec();
-                    }
-                }, 150);
+                    startRec(); // fresh instance every time
+                }, 200);
             } else {
                 setListening(false);
             }
         };
 
         rec.onerror = () => {
-            // no-speech / aborted are normal on silence; onend will handle the restart.
+            // "no-speech" and "aborted" are normal on silence — onend handles restart.
+            // For any hard error, stop cleanly so the mic doesn't hang.
+            if (!wantOnRef.current) return;
+            const last = (recRef.current as unknown as { lastError?: string })?.lastError ?? "";
+            if (last !== "no-speech" && last !== "aborted") {
+                wantOnRef.current = false;
+                setListening(false);
+            }
         };
 
         recRef.current = rec;
         try {
             rec.start();
         } catch {
-            /* already starting — ignore */
+            /* already starting on some browsers — ignore */
         }
     };
 
